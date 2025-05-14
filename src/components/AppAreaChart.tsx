@@ -6,6 +6,7 @@ import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
 import {
   Card,
   CardContent,
+  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -19,12 +20,12 @@ import {
 
 // Must be dynamic data
 const chartData = [
+  { month: "December", desktop: 121, mobile: 250 },
   { month: "January", desktop: 186, mobile: 80 },
   { month: "February", desktop: 305, mobile: 200 },
   { month: "March", desktop: 237, mobile: 120 },
   { month: "April", desktop: 73, mobile: 190 },
   { month: "May", desktop: 209, mobile: 130 },
-  { month: "June", desktop: 214, mobile: 140 },
 ];
 
 const chartConfig = {
@@ -43,6 +44,7 @@ const AppAreaChart = () => {
     <Card>
       <CardHeader>
         <CardTitle>Total Visitors</CardTitle>
+        <CardDescription>December - May 2025</CardDescription>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig}>
@@ -113,9 +115,6 @@ const AppAreaChart = () => {
           <div className="grid gap-2">
             <div className="flex items-center gap-2 font-medium leading-none">
               Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
-            </div>
-            <div className="flex items-center gap-2 leading-none text-muted-foreground">
-              January - May 2025
             </div>
           </div>
         </div>

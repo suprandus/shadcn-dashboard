@@ -8,13 +8,13 @@ const Homepage = () => {
       <div className="p-4 rounded-lg lg:col-span-2 xl:col-span-1 2xl:col-span-2">
         <AppBarChart />
       </div>
-      <div className="p-4 rounded-lg">Test</div>
-      <div className="p-4 rounded-lg">Test</div>
-      <div className="p-4 rounded-lg">Test</div>
+      <div className="p-4 rounded-lg">TODO: Card</div>
+      <div className="p-4 rounded-lg">TODO: Card</div>
+      <div className="p-4 rounded-lg">TODO: Card</div>
       <div className="p-4 rounded-lg lg:col-span-2 xl:col-span-1 2xl:col-span-2">
         <AppAreaChart />
       </div>{" "}
-      <div className="p-4 rounded-lg">Test</div>
+      <div className="p-4 rounded-lg">TODO: Card</div>
     </div>
   );
 };
