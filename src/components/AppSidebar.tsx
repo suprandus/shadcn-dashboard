@@ -1,23 +1,4 @@
 import {
-  Home,
-  Inbox,
-  Calendar,
-  Search,
-  Settings,
-  User2,
-  ChevronUp,
-  Plus,
-  Projector,
-  ChevronDown,
-  Send,
-  LifeBuoy,
-  SquarePlus,
-  Webhook,
-  CodeXml,
-  ExternalLink,
-  Book,
-} from "lucide-react";
-import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
@@ -33,19 +14,37 @@ import {
   SidebarMenuSub,
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar";
-import Link from "next/link";
+import {
+  Book,
+  Calendar,
+  ChevronDown,
+  ChevronUp,
+  CodeXml,
+  ExternalLink,
+  Home,
+  Inbox,
+  LifeBuoy,
+  Plus,
+  Projector,
+  Search,
+  Send,
+  Settings,
+  SquarePlus,
+  User2,
+} from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "./ui/collapsible";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from "./ui/collapsible";
 
 // ITEMS
 const items = [
